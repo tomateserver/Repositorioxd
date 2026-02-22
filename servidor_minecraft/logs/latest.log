@@ -1,0 +1,982 @@
+[22Feb2026 02:16:44.747] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22Feb2026 02:16:44.753] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[22Feb2026 02:16:51.280] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22Feb2026 02:16:51.475] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Repositorioxd/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[22Feb2026 02:16:52.028] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[22Feb2026 02:16:52.029] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Feb2026 02:16:52.030] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Feb2026 02:16:52.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[22Feb2026 02:16:52.433] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: /workspaces/Repositorioxd/servidor_minecraft/mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[22Feb2026 02:16:52.433] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[22Feb2026 02:16:55.371] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Feb2026 02:16:55.557] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[22Feb2026 02:16:55.614] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[22Feb2026 02:16:55.687] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[22Feb2026 02:16:55.691] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[22Feb2026 02:16:55.696] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[22Feb2026 02:16:55.722] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Feb2026 02:16:55.822] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[22Feb2026 02:16:55.843] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 132 options available, 0 override(s) found
+[22Feb2026 02:16:55.859] [main/WARN] [mixin/]: Reference map 'handcrafted-forge-1.20.1-forge-refmap.json' for handcrafted.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Feb2026 02:16:55.920] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Feb2026 02:16:55.951] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Feb2026 02:16:56.776] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[22Feb2026 02:16:56.777] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[22Feb2026 02:16:56.777] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[22Feb2026 02:16:57.583] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER
+[22Feb2026 02:16:57.584] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/particle/ParticleEngine (java.lang.RuntimeException: Attempted to load class net/minecraft/client/particle/ParticleEngine for invalid dist DEDICATED_SERVER)
+[22Feb2026 02:16:57.584] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.particle.ParticleEngine was not found the_bumblezone-common.mixins.json:client.ParticleEngineAccessor
+[22Feb2026 02:16:57.716] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[22Feb2026 02:16:57.717] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[22Feb2026 02:16:57.718] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[22Feb2026 02:16:57.719] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[22Feb2026 02:16:57.720] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[22Feb2026 02:16:57.720] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[22Feb2026 02:16:57.721] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[22Feb2026 02:16:57.723] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[22Feb2026 02:16:58.012] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22Feb2026 02:16:58.506] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[22Feb2026 02:17:04.618] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zla000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[22Feb2026 02:17:05.397] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[22Feb2026 02:17:05.902] [modloading-worker-0/INFO] [Easy NPC/]: Initializing Easy NPC (Forge) ...
+[22Feb2026 02:17:05.903] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Debug Manager ...
+[22Feb2026 02:17:05.908] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Detected debug log level for Easy NPC with ALL!
+[22Feb2026 02:17:05.908] [modloading-worker-0/WARN] [Easy NPC/]: [Debug Manager] Adjusting log level for Easy NPC from ALL to INFO, for performance reasons!
+[22Feb2026 02:17:05.909] [modloading-worker-0/INFO] [Easy NPC/]: [Debug Manager] Add new logger config for Easy NPC with level INFO ...
+[22Feb2026 02:17:05.910] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Constants ...
+[22Feb2026 02:17:05.911] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Command Argument Types ...
+[22Feb2026 02:17:05.924] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
+[22Feb2026 02:17:05.930] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
+[22Feb2026 02:17:05.941] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Entities Types ...
+[22Feb2026 02:17:05.947] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
+[22Feb2026 02:17:05.950] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
+[22Feb2026 02:17:05.953] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks ...
+[22Feb2026 02:17:05.956] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
+[22Feb2026 02:17:05.958] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Blocks Entity Types ...
+[22Feb2026 02:17:05.958] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Items ...
+[22Feb2026 02:17:05.974] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Handler ...
+[22Feb2026 02:17:05.998] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC common config ...
+[22Feb2026 02:17:06.005] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Menu Types ...
+[22Feb2026 02:17:06.019] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler ...
+[22Feb2026 02:17:06.036] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Client Network Message Handler ...
+[22Feb2026 02:17:06.057] [modloading-worker-0/INFO] [Easy NPC/]: Registering Easy NPC client config ...
+[22Feb2026 02:17:06.140] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[22Feb2026 02:17:06.171] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[22Feb2026 02:17:06.520] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@4bc59b27 on thread Thread[modloading-worker-0,5,main]
+[22Feb2026 02:17:06.523] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:97) ~[eventbus-6.0.5.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:48) ~[eventbus-6.0.5.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.5.jar%2350!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.5.jar%2350!/:6.0.5+6.0.5+master.eb8e549b]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2324) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2439) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2420) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2127) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:407) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:315) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:281) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:271) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23229!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:28) ~[obscure_api-15.jar%23229!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:46) ~[obscure_api-15.jar%23229!/:com.obscuria]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:69) ~[obscure_api-15.jar%23229!/:com.obscuria]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.3.7.jar%23259!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22Feb2026 02:17:06.530] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[22Feb2026 02:17:06.675] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[22Feb2026 02:17:06.944] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[22Feb2026 02:17:06.945] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[22Feb2026 02:17:06.950] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[22Feb2026 02:17:06.951] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[22Feb2026 02:17:06.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[22Feb2026 02:17:06.956] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[22Feb2026 02:17:06.958] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[22Feb2026 02:17:06.962] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[22Feb2026 02:17:07.405] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[22Feb2026 02:17:07.428] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[22Feb2026 02:17:07.429] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[22Feb2026 02:17:07.452] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[22Feb2026 02:17:07.452] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[22Feb2026 02:17:07.993] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.2 initializing! Commit hash: bffc4b160b08a91ba243b0cc2e13ac797857e17f
+[22Feb2026 02:17:09.146] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[22Feb2026 02:17:10.236] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:sound_event: The object net.minecraft.sounds.SoundEvent@2f0fa056 has been registered twice for the same name treechop:chop_wood.
+[22Feb2026 02:17:19.321] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[22Feb2026 02:17:19.321] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[22Feb2026 02:17:19.321] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[22Feb2026 02:17:19.759] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[22Feb2026 02:17:19.759] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[22Feb2026 02:17:19.759] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[22Feb2026 02:17:19.760] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[22Feb2026 02:17:19.760] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[22Feb2026 02:17:19.760] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[22Feb2026 02:17:19.762] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[22Feb2026 02:17:19.762] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[22Feb2026 02:17:19.762] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[22Feb2026 02:17:19.764] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[22Feb2026 02:17:19.764] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[22Feb2026 02:17:20.413] [main/WARN] [Easy NPC/]: [Custom Entity Data] Please define a custom index instead of using the auto-generated.
+[22Feb2026 02:17:20.416] [main/INFO] [Easy NPC/]: Register data serializers ...
+[22Feb2026 02:17:20.417] [main/INFO] [Easy NPC/]: - Registering Synched Attack Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.417] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[22Feb2026 02:17:20.417] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttackData
+[22Feb2026 02:17:20.417] [main/INFO] [Easy NPC/]: - Registering Synched Attribute Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.417] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.418] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.AttributeData
+[22Feb2026 02:17:20.419] [main/INFO] [Easy NPC/]: - Registering Synched Navigation Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.NavigationData
+[22Feb2026 02:17:20.420] [main/INFO] [Easy NPC/]: - Registering Synched Owner Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.OwnerData
+[22Feb2026 02:17:20.420] [main/INFO] [Easy NPC/]: - Registering Synched Profession Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ProfessionData
+[22Feb2026 02:17:20.420] [main/INFO] [Easy NPC/]: - Registering Synched Render Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.420] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.RenderData
+[22Feb2026 02:17:20.421] [main/INFO] [Easy NPC/]: - Registering Synched Skin Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[22Feb2026 02:17:20.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[22Feb2026 02:17:20.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[22Feb2026 02:17:20.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SkinData
+[22Feb2026 02:17:20.421] [main/INFO] [Easy NPC/]: - Registering Synched Sound Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.421] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.SoundData
+[22Feb2026 02:17:20.422] [main/INFO] [Easy NPC/]: - Registering Synched Trading Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.TradingData
+[22Feb2026 02:17:20.422] [main/INFO] [Easy NPC/]: - Registering Synched Variant Data for EasyNPCBaseEntity.
+[22Feb2026 02:17:20.423] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.VariantData
+[22Feb2026 02:17:20.440] [main/INFO] [Easy NPC/]: Register model data serializers for ...
+[22Feb2026 02:17:20.440] [main/INFO] [Easy NPC/]: - Registering Synched Model Data for EasyNPCBaseModelEntity.
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.441] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelData
+[22Feb2026 02:17:20.442] [main/INFO] [Easy NPC/]: - Registering Synched Model Position Data for EasyNPCBaseModelEntity.
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.442] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelPositionData
+[22Feb2026 02:17:20.443] [main/INFO] [Easy NPC/]: - Registering Synched Model Rotation Data for EasyNPCBaseModelEntity.
+[22Feb2026 02:17:20.443] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.444] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelRotationData
+[22Feb2026 02:17:20.445] [main/INFO] [Easy NPC/]: - Registering Synched Model Visibility Data for EasyNPCBaseModelEntity.
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.445] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ModelVisibilityData
+[22Feb2026 02:17:20.446] [main/INFO] [Easy NPC/]: - Registering Synched Scale Data for EasyNPCBaseModelEntity.
+[22Feb2026 02:17:20.447] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[22Feb2026 02:17:20.447] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[22Feb2026 02:17:20.447] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class de.markusbordihn.easynpc.entity.EasyNPCBaseModelEntity from interface de.markusbordihn.easynpc.entity.easynpc.data.ScaleData
+[22Feb2026 02:17:20.478] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[22Feb2026 02:17:20.614] [modloading-worker-0/INFO] [Easy NPC/]: 🗣 Register Easy NPC Network Handler for net.minecraftforge.network.simple.SimpleChannel@345d7951 with version 21 ...
+[22Feb2026 02:17:20.714] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[22Feb2026 02:17:20.715] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[22Feb2026 02:17:20.722] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[22Feb2026 02:17:20.724] [modloading-worker-0/INFO] [necronomicon/]: there is a brick about to fall through your roof at terminal velocity
+[22Feb2026 02:17:21.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[22Feb2026 02:17:21.453] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[22Feb2026 02:17:21.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[22Feb2026 02:17:21.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: OUTDATED Current: 2.3.0 Target: 2.4.2
+[22Feb2026 02:17:21.497] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[22Feb2026 02:17:21.509] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[22Feb2026 02:17:21.511] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[22Feb2026 02:17:21.530] [main/INFO] [journeymap/]: Initializing Packet Registries
+[22Feb2026 02:17:21.543] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[22Feb2026 02:17:21.543] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[22Feb2026 02:17:21.543] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[22Feb2026 02:17:21.545] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[22Feb2026 02:17:21.565] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22Feb2026 02:17:21.565] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[22Feb2026 02:17:21.566] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[22Feb2026 02:17:21.566] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[22Feb2026 02:17:21.566] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[22Feb2026 02:17:21.566] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[22Feb2026 02:17:21.566] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[22Feb2026 02:17:21.645] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.10.1 Target: 5.10.3
+[22Feb2026 02:17:21.646] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Feb2026 02:17:21.746] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[22Feb2026 02:17:21.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[22Feb2026 02:17:21.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[22Feb2026 02:17:21.800] [modloading-worker-0/INFO] [io.redspace.ironsspellbooks.IronsSpellbooks/]: Got IMC []
+[22Feb2026 02:17:21.820] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[22Feb2026 02:17:21.820] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[22Feb2026 02:17:22.515] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: OUTDATED Current: 1.20.1-1.0.24 Target: 1.20.1-1.0.35
+[22Feb2026 02:17:22.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[22Feb2026 02:17:22.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: OUTDATED Current: 1.20.1-1.0.14 Target: 1.20.1-1.0.20
+[22Feb2026 02:17:22.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[22Feb2026 02:17:22.725] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: 1.10.0.1 Target: 1.10.1
+[22Feb2026 02:17:22.726] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[22Feb2026 02:17:22.739] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: OUTDATED Current: 3.3.0 Target: 3.4.1
+[22Feb2026 02:17:22.739] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[22Feb2026 02:17:22.766] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[22Feb2026 02:17:22.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[22Feb2026 02:17:22.800] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[22Feb2026 02:17:22.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[22Feb2026 02:17:22.813] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23258!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	... 6 more
+[22Feb2026 02:17:29.768] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Feb2026 02:17:35.808] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/assets/.mcassetsroot' uses unexpected schema
+[22Feb2026 02:17:35.809] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Repositorioxd/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23257!/data/.mcassetsroot' uses unexpected schema
+[22Feb2026 02:17:35.967] [main/INFO] [com.simibubi.create.Create/]: Created 413 recipes which will be injected into the game
+[22Feb2026 02:17:35.981] [main/INFO] [com.simibubi.create.Create/]: Created 22 tags which will be injected into the game
+[22Feb2026 02:17:38.238] [main/INFO] [Easy NPC/]: 🗣 Register Easy NPC /easy_npc commands for Easy NPC ...
+[22Feb2026 02:17:39.412] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'redeco:soul_terrarium'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[22Feb2026 02:17:40.080] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe irons_spellbooks:curios/concentration_amulet
+com.google.gson.JsonSyntaxException: Unknown item 'irons_spellbooks:mithril_ingot'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22Feb2026 02:17:40.202] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_ishi
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23240!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22Feb2026 02:17:40.275] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22Feb2026 02:17:40.355] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:tofu_diamond_blade
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofu_upgrade_smithing_template'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:73) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.SmithingTransformRecipe$Serializer.m_6729_(SmithingTransformRecipe.java:71) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22Feb2026 02:17:40.370] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe slashblade_addon:slashblade_tofu_metal
+com.google.gson.JsonSyntaxException: Unknown item 'tofucraft:tofuishi'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_44210_(ShapedRecipe.java:278) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:306) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:301) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at mods.flammpfeil.slashblade.recipe.SlashBladeShapedRecipeSerializer.m_6729_(SlashBladeShapedRecipeSerializer.java:26) ~[SlashBladeResharped-1.20.1-0.7.3.jar%23240!/:0.7.3]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23262!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23257!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[22Feb2026 02:17:40.376] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 45 recipes
+[22Feb2026 02:17:40.455] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement slashblade_addon:recipes/combat/tofu_diamond_blade: Unknown item id 'slashblade_addon:slashblade_tofu_metal'
+[22Feb2026 02:17:40.551] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement beautify:progression/candelabra: Expected item to be an item, was unknown string 'beautify:lamp_candleabra'
+[22Feb2026 02:17:40.578] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5514 advancements
+[22Feb2026 02:17:40.664] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[22Feb2026 02:17:40.671] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[22Feb2026 02:17:40.672] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[22Feb2026 02:17:46.341] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Feb2026 02:17:46.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Feb2026 02:17:46.342] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Feb2026 02:17:46.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Feb2026 02:17:46.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Feb2026 02:17:46.426] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Feb2026 02:17:46.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Feb2026 02:17:46.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Feb2026 02:17:46.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Feb2026 02:17:46.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Feb2026 02:17:46.534] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Feb2026 02:17:46.535] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[22Feb2026 02:17:46.635] [Server thread/INFO] [Framework/]: Loading server configs...
+[22Feb2026 02:17:46.659] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[22Feb2026 02:17:47.193] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22Feb2026 02:17:47.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Feb2026 02:17:56.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Feb2026 02:17:59.836] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.859] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.871] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.883] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.929] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:17:59.938] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:00.540] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:01.172] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:01.503] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:01.954] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:02.433] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Feb2026 02:18:02.934] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[22Feb2026 02:18:03.135] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6202 ms
+[22Feb2026 02:18:03.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (16.604s)! For help, type "help"
+[22Feb2026 02:18:03.303] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Feb2026 02:19:44.793] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tomate[/100.110.81.112:51402] logged in with entity id 52 at (-2644.7586675883795, 96.525, -2952.347976030281)
+[22Feb2026 02:19:44.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate joined the game
+[22Feb2026 02:19:47.264] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2563ms or 51 ticks behind
+[22Feb2026 02:20:17.766] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate lost connection: Disconnected
+[22Feb2026 02:20:17.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate left the game
+[22Feb2026 02:51:34.418] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _NATz_[/100.119.72.39:53612] logged in with entity id 298 at (-2647.392904452863, 96.42499995231628, -2946.6728374195363)
+[22Feb2026 02:51:34.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ joined the game
+[22Feb2026 02:51:37.232] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2781ms or 55 ticks behind
+[22Feb2026 03:05:16.445] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tomate[/100.110.81.112:51140] logged in with entity id 2228 at (-2639.443632274254, 99.525, -2955.491888252449)
+[22Feb2026 03:05:16.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate joined the game
+[22Feb2026 03:05:41.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 03:07:51.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Creative Mode]
+[22Feb2026 03:09:15.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Survival Mode]
+[22Feb2026 03:10:02.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ has made the advancement [Fruits of the Field]
+[22Feb2026 03:10:29.164] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate lost connection: Disconnected
+[22Feb2026 03:10:29.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate left the game
+[22Feb2026 03:16:29.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _NATz_ lost connection: Disconnected
+[22Feb2026 03:16:29.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ left the game
+[22Feb2026 03:21:25.116] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _NATz_[/100.119.72.39:54780] logged in with entity id 4059 at (-2702.291437731955, 64.42499995231628, -3277.388585823066)
+[22Feb2026 03:21:25.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ joined the game
+[22Feb2026 03:22:20.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set the time to 1000
+[22Feb2026 03:27:42.721] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2670e896[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:54917) lost connection: Disconnected
+[22Feb2026 03:28:25.918] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7e5384c3[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:54923) lost connection: Disconnected
+[22Feb2026 03:28:59.012] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5869fcd3[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:54930) lost connection: Disconnected
+[22Feb2026 03:29:49.660] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e7baedb[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:53078) lost connection: Disconnected
+[22Feb2026 03:30:33.115] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3d0ce2ca[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:57212) lost connection: Disconnected
+[22Feb2026 03:31:06.324] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@18280ee3[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:59559) lost connection: Disconnected
+[22Feb2026 03:31:16.465] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2e17042e[id=<null>,name=Tomate,properties={},legacy=false] (/100.110.81.112:59575) lost connection: Disconnected
+[22Feb2026 03:31:36.715] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: _NATz_ lost connection: Disconnected
+[22Feb2026 03:31:36.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ left the game
+[22Feb2026 03:32:35.377] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Tomate[/100.110.81.112:55258] logged in with entity id 5687 at (-2679.1905458737697, 68.0, -3246.6372977215124)
+[22Feb2026 03:32:35.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate joined the game
+[22Feb2026 03:33:04.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 04:07:28.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 04:08:25.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate moved too quickly! 6.770090883809644,2.5061351021062137,7.044707796428156
+[22Feb2026 04:14:16.466] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: _NATz_[/100.119.72.39:64158] logged in with entity id 10637 at (-2674.0915298256414, 68.0, -3249.1964751556907)
+[22Feb2026 04:14:16.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ joined the game
+[22Feb2026 04:14:34.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ was slain by Zombie
+[22Feb2026 04:15:24.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:15:54.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the weather to clear]
+[22Feb2026 04:16:44.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Creative Mode]
+[22Feb2026 04:17:20.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Made _NATz_ a server operator]
+[22Feb2026 04:18:51.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: The difficulty has been set to Peaceful]
+[22Feb2026 04:18:55.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:19:03.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 04:19:08.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Survival Mode]
+[22Feb2026 04:20:42.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ has made the advancement [Abilities -Enemy Step-           ]
+[22Feb2026 04:20:56.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate has made the advancement [Forbidden Fruit]
+[22Feb2026 04:21:02.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: _NATz_ has made the advancement [Forbidden Fruit]
+[22Feb2026 04:24:08.018] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 4.489834876339046,3.0,8.827092582353544
+[22Feb2026 04:24:08.020] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 4.664821300539188,3.0,9.15182033812107
+[22Feb2026 04:24:08.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 4.851479564803867,3.0,9.469653161668248
+[22Feb2026 04:24:08.021] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 5.056115458350632,3.0,9.775505206122943
+[22Feb2026 04:24:08.022] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 5.278351567778827,3.0,10.06839694741484
+[22Feb2026 04:24:08.023] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 5.511017720610653,3.0,10.35346358667175
+[22Feb2026 04:24:08.027] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 5.749264781715283,3.0,10.634343169845579
+[22Feb2026 04:24:08.028] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 5.990498075565029,3.0,10.912982342790201
+[22Feb2026 04:24:08.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 6.233329243018034,3.0,11.190422716890225
+[22Feb2026 04:24:08.030] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 6.477015400777873,3.0,11.467221637629791
+[22Feb2026 04:24:08.034] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate moved too quickly! 5.603609607195267,2.83919455808514,-7.8526266174908415
+[22Feb2026 04:24:08.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 6.721159046804132,3.0,11.7436773294653
+[22Feb2026 04:24:08.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 6.965547485680418,3.0,12.01994936635765
+[22Feb2026 04:24:08.035] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 7.210066908330191,3.0,12.296123133151468
+[22Feb2026 04:24:08.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 7.4546564177853725,4.0,12.572244317575041
+[22Feb2026 04:24:08.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 7.699283429292791,4.0,12.848337366220676
+[22Feb2026 04:24:08.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 7.943930507401092,4.0,13.124415359972318
+[22Feb2026 04:24:08.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 8.18858832274691,4.0,13.40048529815067
+[22Feb2026 04:24:08.036] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 8.43325188337485,4.0,13.676550925952142
+[22Feb2026 04:24:08.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 8.677918518188562,4.0,13.952614247356905
+[22Feb2026 04:24:08.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 8.932303772696741,4.0,14.219358168674262
+[22Feb2026 04:24:08.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 9.19526123216201,4.0,14.47751549339091
+[22Feb2026 04:24:08.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 9.462805507588655,4.0,14.731078301465004
+[22Feb2026 04:24:08.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 9.732804096785003,4.0,14.982182675288641
+[22Feb2026 04:24:08.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! 10.0041159403454,4.0,15.231971589960722
+[22Feb2026 04:24:08.041] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2689ms or 53 ticks behind
+[22Feb2026 04:24:18.482] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate moved too quickly! 9.825484122049147,-0.9969837384909539,-2.282755435019226
+[22Feb2026 04:24:18.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -7.736086379254175,-3.37211030894224,-5.669494736493107
+[22Feb2026 04:24:18.484] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -7.933197924037813,-3.6616602078219955,-5.731952947829086
+[22Feb2026 04:24:24.515] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.104837108443007,0.0,-9.22510093584333
+[22Feb2026 04:24:24.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.114271837852357,0.0,-9.593569743399712
+[22Feb2026 04:24:24.516] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Tomate moved too quickly! 4.031926122207551,2.0,-9.388744510779816
+[22Feb2026 04:24:24.517] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.130082840589239,0.0,-9.961892008223003
+[22Feb2026 04:24:24.517] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.183792777957933,0.0,-10.324396721112862
+[22Feb2026 04:24:24.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.212531894583208,0.0,-10.518365765416092
+[22Feb2026 04:24:24.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.227909622893094,0.0,-10.622154733697244
+[22Feb2026 04:24:24.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.236137938713,0.0,-10.677690141295443
+[22Feb2026 04:24:24.518] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.707406030644961
+[22Feb2026 04:24:24.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.723306410564874
+[22Feb2026 04:24:24.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.731814386840597
+[22Feb2026 04:24:24.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.736366835315039
+[22Feb2026 04:24:24.519] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.736366835315039
+[22Feb2026 04:24:24.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.240540746453462,0.0,-10.736366835315039
+[22Feb2026 04:24:24.520] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.386054328440878,0.0,-10.827130516292073
+[22Feb2026 04:24:24.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.615481858864769,0.0,-10.95594573234439
+[22Feb2026 04:24:24.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -4.889810070033036,0.0,-11.105121566149592
+[22Feb2026 04:24:24.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -5.189197183877241,0.0,-11.263208951537308
+[22Feb2026 04:24:24.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -5.504378176722184,0.0,-11.421228087954205
+[22Feb2026 04:24:24.521] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -5.830949725735536,0.0,-11.572654786804378
+[22Feb2026 04:24:24.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -6.1667468455161725,0.0,-11.712616391422216
+[22Feb2026 04:24:24.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -6.508532554973044,0.0,-11.843484310121312
+[22Feb2026 04:24:24.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -6.853957696053385,0.0,-11.968210229547367
+[22Feb2026 04:24:24.522] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -7.202170182327791,0.0,-12.087087330487066
+[22Feb2026 04:24:24.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -7.55460146482892,0.0,-12.193355332135525
+[22Feb2026 04:24:24.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -7.911642922736519,0.0,-12.282351825639125
+[22Feb2026 04:24:24.523] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved too quickly! -8.272890868338436,0.0,-12.351030778693712
+[22Feb2026 04:24:25.312] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2311ms or 46 ticks behind
+[22Feb2026 04:24:44.620] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved wrongly! 0.26935218951393836
+[22Feb2026 04:24:44.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Salchichón (vehicle of _NATz_) moved wrongly! 0.5772143736694488
+[22Feb2026 04:25:05.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Camel Spawn Egg] to Tomate]
+[22Feb2026 04:25:27.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:25:41.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Saddle] to Tomate]
+[22Feb2026 04:26:01.724] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 1657 ms
+[22Feb2026 04:26:07.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to -1382.500000, 105.000000, -1209.500000]
+[22Feb2026 04:26:19.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:26:25.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to -1382.500000, 105.000000, -1209.500000]
+[22Feb2026 04:26:29.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported _NATz_ to Tomate]
+[22Feb2026 04:26:38.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Camel Spawn Egg] to Tomate]
+[22Feb2026 04:26:49.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Saddle] to Tomate]
+[22Feb2026 04:27:24.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Spectator Mode]
+[22Feb2026 04:27:44.941] [Worker-Main-80/WARN] [net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement/]: Empty or non-existent pool: minecraft:
+[22Feb2026 04:27:50.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to 10000.500000, 105.000000, 10000.500000]
+[22Feb2026 04:27:50.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6501ms or 130 ticks behind
+[22Feb2026 04:27:50.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -9.939374462237993,0.0,-1.283292858727691
+[22Feb2026 04:27:50.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -10.114726799436312,0.0,-1.218359233991123
+[22Feb2026 04:27:50.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -10.296747063018984,0.0,-1.184747628152536
+[22Feb2026 04:27:50.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -10.482335201066007,0.0,-1.1678958101324497
+[22Feb2026 04:27:50.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -10.661614447410102,0.0,-1.200158783106417
+[22Feb2026 04:27:50.421] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -10.845735921782534,0.0,-1.2185551388115528
+[22Feb2026 04:27:50.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.025264527921308,0.0,-1.189186901727453
+[22Feb2026 04:27:50.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.202335581840089,0.0,-1.1342607833651073
+[22Feb2026 04:27:50.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.385275496472332,0.0,-1.1060039946592042
+[22Feb2026 04:27:50.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.563137731267034,0.0,-1.1321643952098839
+[22Feb2026 04:27:50.422] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.738283000818683,0.0,-1.1874423487699914
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -11.911974476439354,0.0,-1.2583005244041487
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.08592219819775,0.0,-1.257003561188185
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.260007032155272,-0.07683200149536162,-1.2177918009499535
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.361257243715272,-0.2274534586630068,-1.1928891937395747
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.460371457578958,-0.4489423104376016,-1.1707943562039418
+[22Feb2026 04:27:50.423] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.556758989605896,-0.7384922093173572,-1.1552181840879712
+[22Feb2026 04:27:50.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.650714866700582,-1.0,-1.1454553579608273
+[22Feb2026 04:27:50.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -12.822697444404866,-1.0,-1.1378819514907264
+[22Feb2026 04:27:50.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.002914616868111,-1.0,-1.1349626548071683
+[22Feb2026 04:27:50.424] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.187537956806636,-1.0,-1.136095736928155
+[22Feb2026 04:27:50.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.374518949111916,-1.0,-1.1372288190491417
+[22Feb2026 04:27:50.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.56276147419203,-1.0,-1.1383619011701285
+[22Feb2026 04:27:50.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.75167902030762,-1.0,-1.1394949832911152
+[22Feb2026 04:27:50.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.94095775672099,-1.0,-1.140628065412102
+[22Feb2026 04:27:50.425] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.130429758861283,-1.0,-1.1417611475330887
+[22Feb2026 04:27:50.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.32000517363872,-1.0,-1.1428942296540754
+[22Feb2026 04:27:50.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.509635922456482,-1.0,-1.1440273117750621
+[22Feb2026 04:27:50.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.699296279415876,-1.0,-1.1451603938960488
+[22Feb2026 04:27:50.426] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.888972479101767,-1.0,-1.1462934760170356
+[22Feb2026 04:27:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -15.07865715591447,-1.0,-1.1474265581380223
+[22Feb2026 04:27:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -15.268346368668972,-1.0,-1.148559640259009
+[22Feb2026 04:27:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -15.45803800851536,-1.0,-1.1496927223799958
+[22Feb2026 04:27:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -15.64773094705015,-1.0,-1.1508258045009825
+[22Feb2026 04:27:50.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -15.837424580487323,-1.0,-1.1519588866219692
+[22Feb2026 04:27:50.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.02711858575276,-1.0,-1.153091968742956
+[22Feb2026 04:27:50.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.216812789976302,-1.0,-1.1542250508639427
+[22Feb2026 04:27:50.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.406507100658246,-1.0,-1.1553581329849294
+[22Feb2026 04:27:50.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.59620146830389,-1.0,-1.1564912151059161
+[22Feb2026 04:27:50.428] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.785895866429883,-1.0,-1.1576242972269029
+[22Feb2026 04:27:50.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -16.975530423183272,-1.0,-1.1610650441134567
+[22Feb2026 04:27:50.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -17.16481108171388,-1.0,-1.1693398048169001
+[22Feb2026 04:27:50.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -17.353857522528415,-1.0,-1.1825051409150547
+[22Feb2026 04:27:50.429] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -17.542303235848976,-1.0,-1.202181709060369
+[22Feb2026 04:27:50.430] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -17.729509238456558,-1.0,-1.2305719099879298
+[22Feb2026 04:27:50.430] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -17.91550250546743,-1.0,-1.2661011282486925
+[22Feb2026 04:27:50.430] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -18.10073842301972,-1.0,-1.3059025579827903
+[22Feb2026 04:27:50.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -18.285569097976577,-1.0,-1.3479899628976
+[22Feb2026 04:27:50.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -18.47018293570045,-1.0,-1.3913005475542377
+[22Feb2026 04:27:50.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -18.654680748144074,-1.0,-1.435265631303082
+[22Feb2026 04:27:50.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -18.839116477773587,-1.0,-1.4795809244669726
+[22Feb2026 04:27:50.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.02351898812708,-1.0,-1.524083607706416
+[22Feb2026 04:27:50.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.207903723508252,-1.0,-1.5686865596389907
+[22Feb2026 04:27:50.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.392278947856084,-1.0,-1.6133431633502369
+[22Feb2026 04:27:50.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.576649083039683,-1.0,-1.6580284750584724
+[22Feb2026 04:27:50.433] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.761016495112926,-1.0,-1.7027291478436837
+[22Feb2026 04:27:50.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -19.945382450104034,-1.0,-1.7474380400346945
+[22Feb2026 04:27:50.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -20.129747625439677,-1.0,-1.7921513302660514
+[22Feb2026 04:27:50.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -20.31411238359715,-1.0,-1.8368669738010794
+[22Feb2026 04:27:50.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -20.49847691853097,-1.0,-1.8815838765419812
+[22Feb2026 04:27:50.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -20.682841334022214,-1.0,-1.9263014530588407
+[22Feb2026 04:27:50.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -20.86720568560213,-1.0,-1.9710193900996273
+[22Feb2026 04:27:50.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.051570002984363,-1.0,-2.015737520049697
+[22Feb2026 04:27:50.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.235934302068017,-1.0,-2.0604557532217314
+[22Feb2026 04:27:50.436] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.420298591360506,-1.0,-2.105174041625787
+[22Feb2026 04:27:50.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.60466287541408,-1.0,-2.1498923595834185
+[22Feb2026 04:27:50.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.78902715666436,-1.0,-2.1946106933544343
+[22Feb2026 04:27:50.437] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -21.97339143641466,-1.0,-2.239329035586934
+[22Feb2026 04:27:50.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -22.157755715362327,-1.0,-2.2840473823471257
+[22Feb2026 04:27:50.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -22.342119993880488,-1.0,-2.3287657315297565
+[22Feb2026 04:27:50.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -22.526484272168773,-1.0,-2.373484082008872
+[22Feb2026 04:27:50.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -22.71084855033405,-1.0,-2.4182024331814773
+[22Feb2026 04:27:50.439] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -22.895212828433614,-1.0,-2.4629207847251564
+[22Feb2026 04:27:50.439] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -23.080632144142328,-1.0,-2.5026684753854624
+[22Feb2026 04:27:50.439] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -23.268003514270504,-1.0,-2.5266844501438754
+[22Feb2026 04:27:50.474] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.693402912235115,-1.0,-1.207680553538239
+[22Feb2026 04:27:50.528] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -13.882434843111014,-1.0,-1.2131187947768467
+[22Feb2026 04:27:50.565] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! -14.071774232530288,-1.0,-1.2119434358842227
+[22Feb2026 04:28:13.396] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:cherry_grove took 309 ms
+[22Feb2026 04:28:28.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to 10541.500000, 92.000000, 10734.500000]
+[22Feb2026 04:28:28.124] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10723ms or 214 ticks behind
+[22Feb2026 04:28:28.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 8.888987873446013,1.0,4.7509029936852585
+[22Feb2026 04:28:28.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.05372423049812,0.9231679985046384,4.837445297777322
+[22Feb2026 04:28:28.193] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.150106439421961,0.7725465413369932,4.886910849032802
+[22Feb2026 04:28:28.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.244295164571213,0.5510576895623984,4.9341827187172385
+[22Feb2026 04:28:28.194] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.336527740834072,0.26150779068264285,4.979498263119922
+[22Feb2026 04:28:28.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.427015823469674,0.0,5.023069156586189
+[22Feb2026 04:28:28.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.68156453667234,0.0,5.128604904813756
+[22Feb2026 04:28:28.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 9.991619916736,0.0,5.2517542038488045
+[22Feb2026 04:28:28.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 10.331375807553286,0.0,5.3843281627448505
+[22Feb2026 04:28:28.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 10.687023849510751,0.0,5.521945069224785
+[22Feb2026 04:28:28.196] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 11.05117546468773,0.0,5.66226035641148
+[22Feb2026 04:28:28.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 11.41987717235179,0.0,5.804019493314399
+[22Feb2026 04:28:28.197] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 11.791013543786448,0.0,5.946551205413243
+[22Feb2026 04:28:28.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 12.163452655262745,0.0,6.089496307095942
+[22Feb2026 04:28:28.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 12.536588836961755,0.0,6.232662605302949
+[22Feb2026 04:28:28.198] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 12.910098007038641,0.0,6.375947261359897
+[22Feb2026 04:28:28.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 13.283806755759997,0.0,6.519295248342587
+[22Feb2026 04:28:28.199] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 13.657622295034798,0.0,6.662677122440755
+[22Feb2026 04:28:28.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.031494975805572,0.0,6.806077128858988
+[22Feb2026 04:28:28.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.405398231851677,0.0,6.9494868375199985
+[22Feb2026 04:28:28.200] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.779317848117898,0.0,7.0929017376579395
+[22Feb2026 04:28:28.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.153246218411823,0.0,7.236319415651451
+[22Feb2026 04:28:28.201] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.527179272811281,0.0,7.379738580020103
+[22Feb2026 04:28:28.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.900760806201333,0.0,7.524074334049828
+[22Feb2026 04:28:28.202] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.274154247707884,0.0,7.668900536932142
+[22Feb2026 04:28:28.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.637842502675767,0.0,7.834765906281973
+[22Feb2026 04:28:28.203] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.98810234905818,0.0,8.025699244917178
+[22Feb2026 04:28:28.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.32268215132126,0.0,8.241940892332877
+[22Feb2026 04:28:28.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.643641638620238,0.0,8.478169698463262
+[22Feb2026 04:28:28.204] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.957313166941503,0.0,8.725093234721044
+[22Feb2026 04:28:28.205] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.260927070446087,0.0,8.984636554534518
+[22Feb2026 04:28:28.205] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.559159339438565,0.0,9.250932468917426
+[22Feb2026 04:28:28.205] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.854512003101945,0.0,9.520841562022042
+[22Feb2026 04:28:28.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.148323847366783,0.0,9.79268399502189
+[22Feb2026 04:28:28.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.440968689339343,0.0,10.065924946678706
+[22Feb2026 04:28:28.206] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.7306265562554,0.0,10.342372665425728
+[22Feb2026 04:28:28.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.01868615237254,0.0,10.620536261306597
+[22Feb2026 04:28:28.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.30555295497811,0.0,10.899962016567088
+[22Feb2026 04:28:28.207] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.591781517557592,0.0,11.180063128146912
+[22Feb2026 04:28:28.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.87766857062411,0.0,11.460525609428032
+[22Feb2026 04:28:28.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 21.16337288875934,0.0,11.74118145243142
+[22Feb2026 04:28:28.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 21.44897942907619,0.0,12.021940759437257
+[22Feb2026 04:28:28.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 21.734533650431786,0.0,12.302755427967895
+[22Feb2026 04:28:28.209] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 22.02005987695452,0.0,12.583599719346466
+[22Feb2026 04:28:28.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 13.566728924264908,-1.0,8.220041103963922
+[22Feb2026 04:28:28.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 13.84244595041082,-1.0,8.51035699594695
+[22Feb2026 04:28:28.227] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.114967999025794,-1.0,8.803712286152404
+[22Feb2026 04:28:28.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.3798901664386,-1.0,9.103808000229947
+[22Feb2026 04:28:28.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.635806397238639,-1.0,9.411480328514699
+[22Feb2026 04:28:28.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 14.881832101953023,-1.0,9.727006328476136
+[22Feb2026 04:28:28.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.122565583354799,-1.0,10.046734671566355
+[22Feb2026 04:28:28.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.353648886711198,-1.0,10.37341363522728
+[22Feb2026 04:28:28.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.57956857219915,-1.0,10.70381173737519
+[22Feb2026 04:28:28.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 15.801093701853006,-1.0,11.037260127285435
+[22Feb2026 04:28:28.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.019861535459313,-1.0,11.372600656126451
+[22Feb2026 04:28:28.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.23673238947822,-1.0,11.70922214510938
+[22Feb2026 04:28:28.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.450104466682205,-1.0,12.048078939780453
+[22Feb2026 04:28:28.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.661604418170555,-1.0,12.388131801958252
+[22Feb2026 04:28:28.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 16.872102632514498,-1.0,12.728824656011739
+[22Feb2026 04:28:28.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.08165360882799,-1.0,13.07011136867186
+[22Feb2026 04:28:28.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.29028585369565,-1.0,13.411966189501072
+[22Feb2026 04:28:28.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.496326678156493,-1.0,13.755378789329143
+[22Feb2026 04:28:28.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.69716976087966,-1.0,14.101806646150862
+[22Feb2026 04:28:28.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 17.89008798369855,-1.0,14.45260772005713
+[22Feb2026 04:28:28.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.069992665172776,-1.0,14.80999327046834
+[22Feb2026 04:28:28.231] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.23711571518629,-1.0,15.173413019273312
+[22Feb2026 04:28:28.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.39649061686646,-1.0,15.540432799404243
+[22Feb2026 04:28:28.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.551719638855047,-1.0,15.90937888452072
+[22Feb2026 04:28:28.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.70473028328047,-1.0,16.279355697028677
+[22Feb2026 04:28:28.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 18.856553918101554,-1.0,16.649884031213332
+[22Feb2026 04:28:28.232] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.007742407749674,-1.0,17.0207074736511
+[22Feb2026 04:28:28.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.15859104387937,-1.0,17.391688822631068
+[22Feb2026 04:28:28.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.309257831167088,-1.0,17.762754664253634
+[22Feb2026 04:28:28.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.459827314765334,-1.0,18.133865716204582
+[22Feb2026 04:28:28.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.610344733099282,-1.0,18.505000959300787
+[22Feb2026 04:28:28.233] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.760834292348363,-1.0,18.876149146596617
+[22Feb2026 04:28:28.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.911308944756684,-1.0768320014953616,19.24730426007568
+[22Feb2026 04:28:28.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 19.998819999951593,-1.2274534586630068,19.463158072760734
+[22Feb2026 04:28:28.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.08385743005556,-1.4489423104376016,19.67291261995797
+[22Feb2026 04:28:28.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.166688881239907,-1.7384922093173572,19.87722784203652
+[22Feb2026 04:28:28.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.247553040367166,-2.0,20.076692273834396
+[22Feb2026 04:28:28.235] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.31966769955511,-2.0,20.254574659238187
+[22Feb2026 04:28:28.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.358254815875398,-2.0,20.349755977075574
+[22Feb2026 04:28:28.326] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Camel (vehicle of _NATz_) moved too quickly! 20.378902012474327,-2.0,20.400685602539625
+[22Feb2026 04:29:02.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported _NATz_ to Tomate]
+[22Feb2026 04:29:04.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Survival Mode]
+[22Feb2026 04:29:14.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Camel Spawn Egg] to Tomate]
+[22Feb2026 04:29:23.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 6000]
+[22Feb2026 04:29:31.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Saddle] to Tomate]
+[22Feb2026 04:29:54.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: The difficulty has been set to Hard]
+[22Feb2026 04:31:12.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate has made the advancement [Could you knot?]
+[22Feb2026 04:31:12.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Rope] to Tomate]
+[22Feb2026 04:34:27.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Gave 1 [Speed Module] to Tomate]
+[22Feb2026 04:35:34.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 04:36:08.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Tomate has made the advancement [A Seedy Place]
+[22Feb2026 04:37:52.168] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element #graveyard:has_structure/haunted_house (biomesoplenty:marsh) took 852 ms
+[22Feb2026 04:38:01.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to 9164.500000, 104.000000, 11964.500000]
+[22Feb2026 04:38:01.003] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5302ms or 106 ticks behind
+[22Feb2026 04:38:49.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Spectator Mode]
+[22Feb2026 04:38:52.443] [Worker-Main-82/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=9266, y=55, z=12186}
+[22Feb2026 04:40:32.965] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element alexscaves:licowitch_tower took 4498 ms
+[22Feb2026 04:40:32.965] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4464ms or 89 ticks behind
+[22Feb2026 04:40:45.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to 13152.500000, 122.625001, 18880.500000]
+[22Feb2026 04:41:54.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:41:57.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Survival Mode]
+[22Feb2026 04:42:55.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Spectator Mode]
+[22Feb2026 04:43:30.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:44:30.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Teleported Tomate to _NATz_]
+[22Feb2026 04:44:32.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set own game mode to Survival Mode]
+[22Feb2026 04:46:03.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
+[22Feb2026 04:56:17.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Tomate: Set the time to 1000]
